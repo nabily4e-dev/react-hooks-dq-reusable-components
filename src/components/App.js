@@ -4,7 +4,7 @@ import Shop from "./Shop";
 import potions from "../data";
 
 function App() {
-  const [gold, setGold] = useState(500);
+  const [gold, setGold] = useState(50000);
   const [inventory, setInventory] = useState([]);
   const [shake, setShake] = useState(false);
   const [sound, setSound] = useState(null);
